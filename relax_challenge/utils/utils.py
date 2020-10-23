@@ -6,9 +6,9 @@ from datetime import timedelta
 def adopted_user(df, days=7, logins=3):
     """
 
-    :param df:
-    :param days:
-    :param logins:
+    :param df: dataframe
+    :param days: int, length of period
+    :param logins: int, numbers of logins
     :return:
     """
     # first drop duplicate days and sort by day
